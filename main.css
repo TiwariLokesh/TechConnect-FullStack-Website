@@ -63,3 +63,13 @@ textarea.tall-textarea{
         height: 320px;
     }
 }
+
+
+/* Post */
+.delete-post-button{
+    cursor: pointer;
+    background:none ;
+    border: none;
+    padding:0px;
+    margin:0px;
+}
