@@ -26,11 +26,11 @@
         <div class="container d-flex flex-column justify-content-between flex-md-row align-items-center p-3">
             <h4 class="my-0 mr-md-auto font-weight-normal"><a href="/" class="text-white text-decoration-none">TechConnect</a></h4>
             <div class="flex-row my-3 my-md-0">
-                <a href="#" class="text-white mr-2 mx-1 header-search-icon" title="Search" data-toggle="tooltip" data-placement="bottom"><i class="fas fa-search"></i></a>
-                <span class="text-white mr-2 header-chat-icon mx-1" title="Chat" data-toggle="tooltip" data-placement="bottom"><i class="fas fa-comment"></i></span>
-                <a href="#" class="mr-2 mx-1"><img title="My Profile" data-toggle="tooltip" data-placement="bottom" style="width: 32px; height: 32px; border-radius: 16px;" src="https://gravatar.com/avatar/f64fc44c03a8a7eb1d52502950879659?s=128"></a>
+                <a href="#" class="text-white mr-2 mx-sm-1 header-search-icon" title="Search" data-toggle="tooltip" data-placement="bottom"><i class="fas fa-search"></i></a>
+                <span class="text-white mr-2 header-chat-icon mx-sm-1" title="Chat" data-toggle="tooltip" data-placement="bottom"><i class="fas fa-comment"></i></span>
+                <a href="#" class="mr-2 mx-sm-1"><img title="My Profile" data-toggle="tooltip" data-placement="bottom" style="width: 32px; height: 32px; border-radius: 16px;" src="https://gravatar.com/avatar/f64fc44c03a8a7eb1d52502950879659?s=128"></a>
                 <a class="btn btn-sm btn-success mr-2 mx-3" href="#">Create Post</a>
-                <form action="#" method="POST" class="d-inline mx-1">
+                <form action="#" method="POST" class="d-inline mx-sm-1">
                     <button class="btn btn-sm btn-secondary">Sign Out</button>
                 </form>
             </div>
@@ -41,10 +41,16 @@
 <!--Body part starts here-->
 <div class="container py-md-5 container--narrow">
   <form action="#" method="post">
-    <div class="form-group">
-<label for="post-title" class="text-muted mb-1"><small>Title</small></label>
+    <div class="form-group ">
+<label for="post-title" class="text-muted mb-1 "><small class="fs-5  ">Title</small></label>
 <input type="text" name="title" id="post-title" class="form-control form-control-lg form-control-title"  autocomplete="off" required>
     </div>
+
+    <div class="form-group pt-4">
+      <label for="post-body" class="text-muted mb-1"><small class="fs-5 ">Developer Content</small></label>
+
+     <textarea required name="body" id="post-body" class="form-control tall-textarea body-content" type="text" autocomplete="off"></textarea>
+          </div>
   </form>
 </div>
 
