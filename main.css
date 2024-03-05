@@ -5,6 +5,10 @@
     background-color:#292929 ;
 }
 
+footer{
+    background-color:#292929;
+    color: #fff;
+}
 .input-dark{
    background-color: #444; 
    border: transparent;
@@ -16,6 +20,13 @@
     border-color: #80bdff;
     outline:0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123,255, 0.25 );
+}
+.geeks{
+    font-weight: 500;
+}
+
+.form-start{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /* home-logged-in */
