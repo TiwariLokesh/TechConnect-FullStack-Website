@@ -57,3 +57,9 @@ max-width: 732px;
 textarea.tall-textarea{
     height: 168px;
 }
+
+@media (min-width:768px){
+    textarea.tall-textarea{
+        height: 320px;
+    }
+}
