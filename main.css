@@ -83,3 +83,19 @@ textarea.tall-textarea{
     position: relative;
     top: -3px;
 }
+
+/* Chat-visible */
+.chat-wrapper{
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    right: 20px;
+    width: 290px;
+    height: 350px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    transform: translateY(100%);
+}
